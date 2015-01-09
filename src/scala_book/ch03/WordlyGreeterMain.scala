@@ -16,6 +16,7 @@ class WordlyGreeter (greeting: String){
   def greet(): Unit ={
     val worldlyGreeting = WordlyGreeter.worldify(greeting)
     println(worldlyGreeting)
+
   }
 }
 
